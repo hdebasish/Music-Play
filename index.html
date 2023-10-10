@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1226568128.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/homescreenstyle.css">
+    <title>Home Screen</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <!-- Navbar - Logo, Link, Search bar, Notification, Profile Photo -->
+    
+            <nav id="navbar">
+                <div>
+                    <div id="logo">
+                        <img src="/images/nav/logo.png" alt="">
+                        <p>&nbsp;&nbsp;Ninja <br> <span><b>&nbsp;&nbsp;Studio</b></span></p> 
+    
+                    </div>
+                    <div id="favourites">
+                        <a href="#">Favourites</a>
+                    </div>
+                </div>
+    
+                <div>
+    
+                    <div id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" name="" id="" placeholder="Search">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                    <div id="notify">
+                        <i class="fa-solid fa-bell fa-2xl"></i>
+                    </div>
+                    <div id="profile">
+                        <img src="/images/nav/profile.jpg" alt="">
+                    </div>
+    
+                </div>
+                
+            </nav>
+        </header>
+
+
+        <div class="content-container">
+
+            <section class="main-content">
+                <!-- Carousel -->
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <img id="slide-1" src="/images/slider/slider1.jpg" alt="">
+                            <img id="slide-2" src="/images/slider/slider2.jpg" alt="">
+                            <img id="slide-3" src="/images/slider/slider3.jpg" alt="">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#slide-1"></a>
+                            <a href="#slide-2"></a>
+                            <a href="#slide-3"></a>
+                        </div>
+                    </div>
+        
+                </div>
+
+                <!-- Latest Release -->
+
+
+                <div class="latest-release adjust-content-padding">
+                    <h2>Latest Release</h2>
+                    <div class="latest-release-grid">
+
+                        <div class="grid-item"><div class="play-container"><img src="images/songs/song1.jpg" alt=""> <div class="middle"><i class="fa-solid fa-play fa-2xl"></i></div></div><span class="ellipsis-icon"><i class="fa-solid fa-ellipsis"></i></span><div class="grid-list-title"><p><b>Despacito</b></p><p>SEP 20, 2023</p></div> <span class="color-type-grey duration">3:41</span></div>
+                        <div class="grid-item"><div class="play-container"><img src="images/songs/song2.jpg" alt=""> <div class="middle"><i class="fa-solid fa-play fa-2xl"></i></div></div><span class="ellipsis-icon"><i class="fa-solid fa-ellipsis"></i></span><div class="grid-list-title"><p><b>Let Me Love You</b></p><p>AUG 12, 2023</p></div> <span class="color-type-grey duration">3:25</span></div>
+                        <div class="grid-item"><div class="play-container"><img src="images/songs/song3.jpg" alt=""> <div class="middle"><i class="fa-solid fa-play fa-2xl"></i></div></div><span class="ellipsis-icon"><i class="fa-solid fa-ellipsis"></i></span><div class="grid-list-title"><p><b>See You Again</b></p><p>JUL 09, 2023</p></div> <span class="color-type-grey duration">4:09</span></div>
+                        <div class="grid-item"><div class="play-container"><img src="images/songs/song4.jpg" alt=""> <div class="middle"><i class="fa-solid fa-play fa-2xl"></i></div></div><span class="ellipsis-icon"><i class="fa-solid fa-ellipsis"></i></span><div class="grid-list-title"><p><b>Not Afraid</b></p><p>OCT 17, 2023</p></div> <span class="color-type-grey duration">4:11</span></div>
+
+                    </div>
+                    
+                </div>
+                
+                <!-- Popular Artists -->
+
+                <div class="popular-artist adjust-content-padding">
+                    <h2>Popular Artists</h2>
+
+                    <div class="popular-artist-wrapper">
+                    
+                        <div><div class="play-container"><img src="images/artist/artist1.png" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Ed Sheeran</b></p></div>
+                        <div><div class="play-container"><a href="singleplaylistscreen.html"><img src="images/artist/artist2.png" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></a></div><p><b>Eminem</b></p></div>
+                        <div><div class="play-container"><img src="images/artist/artist3.png" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Adele</b></p></div>
+                        <div><div class="play-container"><img src="images/artist/artist4.png" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Dua Lipa</b></p></div>
+                        <div><div class="play-container"><img src="images/artist/artist5.png" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Zayn</b></p></div>
+
+                    </div>
+
+                </div>
+
+                <!-- Genere Specific -->
+
+                <div class="genere adjust-content-padding">
+                    <div class="genere-wrapper">
+
+                        <div class="genere-list"><img src="/images/genre/genre1.jpg" alt=""><p>Love</p></div>
+                        <div class="genere-list"><img src="/images/genre/genre2.jpg" alt=""><p>Retro</p></div>
+                        <div class="genere-list"><img src="/images/genre/genre3.jpg" alt=""><p>Chill</p></div>
+                        <div class="genere-list"><img src="/images/genre/genre4.jpg" alt=""><p>Rap</p></div>
+                        <div class="genere-list"><img src="/images/genre/genre5.jpg" alt=""><p>Workout</p></div>
+                        <div class="genere-list"><img src="/images/genre/genre6.jpg" alt=""><p>Rock</p></div>
+                        <div class="genere-list"><img src="/images/genre/genre7.jpg" alt=""><p>Pop</p></div>
+
+                    </div>
+                    
+
+                </div>
+
+
+                <!-- Genre Card -->
+
+                <div class="genre-card adjust-content-padding">
+                    <div class="genere-card-wrapper">
+                        <div class="genere-card-list"><img src="/images/card/card1.jpg" alt=""><p>Party</p></div>
+                        <div class="genere-card-list"><img src="/images/card/card2.jpg" alt=""><p>Electronic</p></div>
+                        <div class="genere-card-list"><img src="/images/card/card3.jpg" alt=""><p>Road Trip</p></div>
+                    </div>
+                </div>
+
+                <!-- Latest English -->
+
+                <div class="latest-eng adjust-content-padding">
+                    <h2>Latest English</h2>
+                    <div class="latest-eng-wrapper">
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/eng/eng1.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Believer</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/eng/eng2.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Unstoppable</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/eng/eng3.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>On My Way</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/eng/eng4.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Love Me Like You Do</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/eng/eng5.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Friends</b></p><p>SEP 20, 2023</p></div>
+                    </div>
+                </div>
+
+
+                <!-- Latest Hindi -->
+
+                <div class="latest-eng adjust-content-padding">
+                    <h2>Latest Hindi</h2>
+                    <div class="latest-eng-wrapper">
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/hindi/hnd1.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Saawan Aa Gaya</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/hindi/hnd2.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Ramaiya Vastavaiya</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/hindi/hnd3.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Apna Bana Le</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/hindi/hnd4.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Kasam Se</b></p><p>SEP 20, 2023</p></div>
+                    <div class="latest-eng-list"><div class="play-container2"><img src="/images/hindi/hnd5.jpg" alt=""><div class="middle playlist"><i class="fa-solid fa-play fa-2xl"></i></div></div><p><b>Channa Ve</b></p><p>SEP 20, 2023</p></div>
+                    </div>
+                </div>
+        
+            </section>
+        
+            <aside class="queue-list">
+                <div class="queue-list-heading"><h1>My Playlist</h1><p style="color: #50e3c2;">Queue <a class="queue-list-menu" href="#menu-items-playlist"><i class="fa-solid fa-chevron-down"></i></a></p></div>
+                <ul class="queue-list-wrapper">
+                    <li class="queue-list-items color-style1"><p class="color-type-grey" style="margin-left: 0;">01</p><div class="play-container"><img src="images/playlist/q-item1.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Toxic</b></p><p class="color-type-grey">Britney Spears</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style6"><p class="color-type-grey" style="margin-left: 0;">02</p><div class="play-container"><img src="images/playlist/q-item6.png" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Good as Hell</b></p><p class="color-type-grey">Lizzo</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style3"><p class="color-type-grey" style="margin-left: 0;">03</p><div class="play-container"><img src="images/playlist/q-item3.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Party in the U.S.A.</b></p><p class="color-type-grey">Miley Cyrus</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style4"><p class="color-type-grey" style="margin-left: 0;">04</p><div class="play-container"><img src="images/playlist/q-item4.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Hips Don't Lie</b></p><p class="color-type-grey">Shakira</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style5"><p class="color-type-grey" style="margin-left: 0;">05</p><div class="play-container"><img src="images/playlist/q-item5.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Starships</b></p><p class="color-type-grey">Nicki Minaj</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style2"><p class="color-type-grey" style="margin-left: 0;">06</p><div class="play-container"><img src="images/playlist/q-item2.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Rolling in the Deep</b></p><p class="color-type-grey">Adele</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style1"><p class="color-type-grey" style="margin-left: 0;">07</p><div class="play-container"><img src="images/playlist/q-item1.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Toxic</b></p><p class="color-type-grey">Britney Spears</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style6"><p class="color-type-grey" style="margin-left: 0;">08</p><div class="play-container"><img src="images/playlist/q-item6.png" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Good as Hell</b></p><p class="color-type-grey">Lizzo</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style3"><p class="color-type-grey" style="margin-left: 0;">09</p><div class="play-container"><img src="images/playlist/q-item3.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Party in the U.S.A.</b></p><p class="color-type-grey">Miley Cyrus</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style4"><p class="color-type-grey" style="margin-left: 0;">10</p><div class="play-container"><img src="images/playlist/q-item4.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Hips Don't Lie</b></p><p class="color-type-grey">Shakira</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style5"><p class="color-type-grey" style="margin-left: 0;">11</p><div class="play-container"><img src="images/playlist/q-item5.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Starships</b></p><p class="color-type-grey">Nicki Minaj</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                    <li class="queue-list-items color-style2"><p class="color-type-grey" style="margin-left: 0;">12</p><div class="play-container"><img src="images/playlist/q-item2.jpg" alt=""> <div class="middle playlist"><i class="fa-solid fa-play fa-lg"></i></div></div><div class="queue-list-title"><p><b>Rolling in the Deep</b></p><p class="color-type-grey">Adele</p></div><span class="heart-icon"><i class="fa-regular fa-heart color-type-grey"></i></span></li>
+                </ul>
+
+                <div class="item-playlist-container">
+                    <ul id="menu-items-playlist" class="item-playlist">
+                        <li><a class="item-playlist-link" href="#">Playlist</a></li>
+                        <li><hr></li>
+                        <li><a class="item-playlist-link" href="#">Favourite Songs</a></li>
+                    </ul>
+                </div>
+        
+            </aside>
+
+        </div>
+
+
+        <!-- Music Player -->
+
+        <div class="music-player">
+            <div class="song-desc">
+                <img src="/images/music-player/song.jpeg" alt="">
+                <div class="song-title">
+                    <div>
+                        <p>Not Afraid</p>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-ban"></i>
+                        </span>
+                    </div>
+                    
+                    <p>Eminem</p>
+                </div>
+                
+
+            </div>
+            <div class="controller-1">
+
+                <div class="controls">
+                    <div>
+                        <i class="fa-solid fa-shuffle"></i>
+                        <i class="fa-solid fa-backward-step"></i>
+                        <span><i class="fa-solid fa-pause fa-lg"></i></span>
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-solid fa-repeat"></i>
+                    </div>
+                    
+                </div>
+                <div class="seek">
+                    <div class="track"></div>
+                    <div class="point"></div>
+                    <div class="dot"></div>
+                </div>
+
+            </div>
+            <div class="controller-2">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-computer"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="seek-vol">
+                    <div class="track"></div>
+                    <div class="point"></div>
+                    <div class="dot"></div>
+                </div>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                
+            </div>
+
+        </div>
+    
+
+
+    </div>
+
+   
+
+
+</body>
+</html>
